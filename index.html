@@ -12,17 +12,20 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark ">
+    <nav class="navbar navbar-expand navbar-dark  bg-dark ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link" href="#work">Trabajo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -33,13 +36,69 @@
             <p class="title">Desarrollador Web</p>
             <p class="description">Desarrollador de software apasionado por la tecnología. Autodidacta, con ganas de aprender. Analítico, orientado a objetivos.</p>
         </section>
-        <div class="row">
-            <div class="col-md-6">
-
+        <div id="work">
+            <section class="info mt-5">
+                <h2 class="">Trabajo</h2>
+            </section>
+            <div class="row projects">
+                <div class="col-md-3">
+                    <button id="dogmatch" type="button" class="btn btn-white" data-toggle="popover">
+                            <img class="img-thumbnail" src="files/dogmatch.png" alt="Dogmatch">
+                        </button>
+                </div>
+                <div class="col-md-3">
+                    <button id="samsa" type="button" class="btn btn-white" data-toggle="popover">
+                            <img class="img-thumbnail" src="files/samsa.svg" alt="Samsa">
+                        </button>
+                </div>
+                <div class="col-md-3">
+                    <button id="vigilatuinversion" type="button" class="btn btn-white" data-toggle="popover">
+                            <img class="img-thumbnail" src="files/vigilatuinversion.png" alt="Vigila tu inversion">
+                        </button>
+                </div>
+                <div class="col-md-3">
+                    <button id="pelosbox" type="button" class="btn btn-white" data-toggle="popover">
+                            <img class="img-thumbnail" src="files/pelosbox.svg" alt="Pelos box">
+                        </button>
+                </div>
             </div>
         </div>
-    </div>
 
+
+        <div id="contact">
+            <section class="info mt-5">
+                <h2 class="">Contacto</h2>
+            </section>
+            <div class="row contact">
+                <div class="col-md-3">
+                    <a href="https://www.linkedin.com/in/roberto-esparza" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="d-none">
+        <div class="dogmatch">
+            <p>Dogmatch es un red social para dueños de perros. Cuenta con un e-commerce custom, para comprar espacios publicitarios, vía web.</p>
+            <a class="btn btn-link" target="_blank" href="https://www.dogmatch.pet/">Ir al sitio</a>
+        </div>
+        <div class="samsa">
+            <p>Samsa es un sistema gestor de clases y reservas. Cuenta con un e-commerce custom, para comprar suscripciones y clases individuales, vía web.</p>
+            <a class="btn btn-link" target="_blank" href="https://www.samsaestudio.com/">Ir al sitio</a>
+        </div>
+        <div class="vigilatuinversion">
+            <p>Es un sistema de control de gasto de materiales en obra civil. Cuenta con un visor web de planos de autoCAD</p>
+            <a class="btn btn-link" target="_blank" href="http://www.vigilatuinversion.com/">Ir al sitio</a>
+        </div>
+        <div class="pelosbox">
+            <p>Pelos box es un servicio mensual de pedidos de paquetes con contenido para perros. Cuenta con un e-commerce custom, para comprar suscripciones y paquetes individuales, vía web y pagando en oxxo.</p>
+            <a class="btn btn-link" target="_blank" href="https://www.pelosbox.com/">Ir al sitio</a>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

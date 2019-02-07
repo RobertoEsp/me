@@ -1,0 +1,12 @@
+.projects div {
+    text-align: center;
+    margin: auto auto;
+}
+
+.projects a {
+    margin: 0 auto;
+}
+
+.contact div {
+    font-size: 2rem;
+}
