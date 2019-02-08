@@ -3,7 +3,6 @@ $(function() {
         var id = $(val).attr("id");
         if (id != undefined) {
             var html = $("." + id).html();
-            console.log(html)
             $(val).popover({
                 'trigger': 'focus',
                 'placement': 'bottom',

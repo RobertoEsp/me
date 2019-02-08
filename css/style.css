@@ -1,12 +1,46 @@
-.projects div {
-    text-align: center;
-    margin: auto auto;
-}
-
-.projects a {
-    margin: 0 auto;
-}
-
-.contact div {
-    font-size: 2rem;
-}
+    html {
+        scroll-behavior: smooth
+    }
+    
+    .projects div {
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 1rem;
+    }
+    
+    .projects button {
+        max-width: 50%;
+    }
+    
+    .projects img {
+        max-width: 80%;
+        filter: grayscale(20%);
+    }
+    
+    .projects a {
+        margin: 0 auto;
+    }
+    
+    .contact {
+        color: #2b343f;
+        white-space: nowrap;
+        margin-bottom: 2rem;
+    }
+    
+    .contact * {
+        vertical-align: middle;
+    }
+    
+    .contact a {
+        color: #2b343f;
+    }
+    
+    .contact div {
+        font-size: 2rem;
+    }
+    
+    .contact span,
+    .contact a {
+        font-size: 50%;
+    }
